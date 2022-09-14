@@ -1,0 +1,12 @@
+ [
+    {"Modelo": 787, "Fabricante": "Boeing", "Aerolinea": "Aeromexico", "Precio": 19000, "img": "../images/amex-11-5c7df1edd14dd9a3ca16169621547240-640-0.jpg"},
+    {"Modelo": 777, "Fabricante": "Boeing", "Aerolinea": "Emirates", "Precio": 17500, "img": "../images/emirates77750anos11-2a04b1f66f1c7dd0c516484870021276-640-0.jpg"},
+    {"Modelo": 330, "Fabricante": "Airbus", "Aerolinea": "Aerolineas Argentinas", "Precio": 25650, "img": "//d3ugyf2ht6aenh.cloudfront.net/stores/001/301/242/products/whatsapp-image-2020-11-05-at-00-39-501-0ccb9ad3796b4fdc7116045493615194-640-0.jpeg"},
+    {"Modelo": 737, "Fabricante": "Boeing", "Aerolinea": "Aerolineas Argentinas", "Precio": 22300, "img": "../images/arsky11-99a63e8f93daea266816460698614077-640-0.jpg"},
+    {"Modelo": 330, "Fabricante": "Airbus", "Aerolinea": "Swiss", "Precio": 15000, "img": "//d3ugyf2ht6aenh.cloudfront.net/stores/001/301/242/products/swissa33011-831070c9e784c6b9c316620504284644-640-0.jpg"},
+    {"Modelo": 737, "Fabricante": "Boeing", "Aerolinea": "Aerolineas Argentinas", "Precio": 23000, "img": "//d3ugyf2ht6aenh.cloudfront.net/stores/001/301/242/products/arwtx11-00be66323194e5ed2716618911242889-640-0.jpg"},
+    {"Modelo": 777, "Fabricante": "Boeing", "Aerolinea": "Alitalia", "Precio": 19750, "img": "//d3ugyf2ht6aenh.cloudfront.net/stores/001/301/242/products/alitaliataormina11-9f132c5e6fbd9a066c16388055998514-640-0.jpg"},
+    {"Modelo": 340, "Fabricante": "Airbus", "Aerolinea": "Iberia", "Precio": 18600, "img": "//d3ugyf2ht6aenh.cloudfront.net/stores/001/301/242/products/iberiaa34011-f0116b5268c29531b316536527164685-640-0.jpg"},
+    {"Modelo": 320, "Fabricante": "Airbus", "Aerolinea": "Viva", "Precio": 14800, "img": "../images/vivaamarillo11-4d5665b1ba8363abc816562559390702-640-0.jpg"},
+    {"Modelo": 747, "Fabricante": "Boeing", "Aerolinea": "CargoLux", "Precio": 24000, "img": "//d3ugyf2ht6aenh.cloudfront.net/stores/001/301/242/products/cargolux110-318b3a60d732edbd7716258552395372-640-0.jpg"} 
+    ]
