@@ -13,7 +13,8 @@ fetch("../js/products.json")
                 <h3>${product.Modelo}</h3>
                   <h2> ${product.Aerolinea} </h2>
                   <img src="${product.img}" class="images" alt="am"> <br>
-                  <button>$${product.Precio}</button> </div>
+                  <button>$${product.Precio}</button>
+                  <button onclick=agregarAlCarro('${JSON.stringify(product)}')>Agregar al carro</button> </div>
                   </div> </section>
       `;
     });
@@ -26,7 +27,23 @@ fetch("../js/products.json")
 traerProductos()
 
 
-
+function agregarAlCarro(producto){
+    let jsonProducto = JSON.parse(producto)
+    let productosCarro;
+    if(localStorage.getItem('carro') != 'undefined'){
+        productosCarro = JSON.parse(localStorage.getItem('carro'));
+    }else{
+        productosCarro = [];
+    }
+    productosCarro.push(jsonProducto);
+    localStorage.setItem('carro',JSON.stringify(productosCarro))
+    Swal.fire({
+        title: 'Hey',
+        text: 'Producto agregado al carro',
+        icon: 'info',
+        confirmButtonText: 'Ok!'
+    })
+}
 
 function formulario() {
     let nombre = document.getElementById("nombre").value;
