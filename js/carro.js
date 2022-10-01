@@ -96,10 +96,3 @@ function formulario() {
 
     
 }
-
-{/* <div>
-<p>MODELO: ${product.Modelo}</p>
-<p>FABRICANTE: ${product.Fabricante}</p>
-<p>AEROLINEA: ${product.Aerolinea}</p>
-<p>PRECIO: ${product.Precio}</p>
-</div> */}
