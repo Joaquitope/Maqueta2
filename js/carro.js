@@ -30,7 +30,8 @@ traerProductos()
 function agregarAlCarro(producto){
     let jsonProducto = JSON.parse(producto)
     let productosCarro;
-    if(localStorage.getItem('carro') != 'undefined'){
+    let carro = localStorage.getItem('carro');
+    if(carro != 'undefined' && carro != null){
         productosCarro = JSON.parse(localStorage.getItem('carro'));
     }else{
         productosCarro = [];
